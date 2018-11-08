@@ -3,3 +3,17 @@
  * Version: 1
  * By: xxx
  */
+nav li {
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ccc;
+}
+nav li a {
+    display: block;
+    padding: 8px;
+}
