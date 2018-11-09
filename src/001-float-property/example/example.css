@@ -3,17 +3,63 @@
  * Version: 1
  * By: xxx
  */
+img {
+    float: left;
+    margin: 5px;
+}
+.page-content > *{
+    float: left;
+    background: #ddd;
+}
 nav li {
     float: left;
 }
-nav ul {
+ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+}
+nav ul {
+    margin: 0;
     overflow: hidden;
     background-color: #ccc;
 }
 nav li a {
     display: block;
     padding: 8px;
+}
+article {
+    float: left;
+    width: 70%;
+    background: #bbb;
+}
+aside {
+    float: right;
+    width: 30%;
+    padding: 5px 0;
+}
+label {
+    display: block;
+}
+input {
+    width: 100%;
+}
+
+section {
+    float: left;
+    clear: both;
+    background: #eee;
+    width: 100%;
+    
+}
+section li {
+    float: left;
+}
+section + div {
+    clear: both;
+}
+
+aside > *,
+article > *,
+section > * {
+    margin: 10px;
 }
