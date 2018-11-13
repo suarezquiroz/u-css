@@ -3,3 +3,100 @@
  * Version: 1
  * By: xxx
  */
+
+#container{
+     background: #eee;
+     max-width: 1200px;
+     margin: auto;
+     padding: 10px;
+}
+
+#container div>*,
+#f-centered-line,
+#h-center-flexbox,
+#i-fixed-height-centered,
+#j-unknown-height-centered
+{
+    background: #ddd;
+    text-align: left;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+h4 {
+     margin: auto;
+     text-align: center;
+     background: #ddd;
+     padding: 10px;
+}
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul {
+    padding: 10px;
+    background-color: #ddd;
+}
+
+#d-centered-block-elements{
+    text-align: center;
+}
+
+#d-centered-block-elements div,
+#e-centered-elements-flexbox div
+{
+    display: inline-block;
+    max-width: 300px;
+}
+#e-centered-elements-flexbox{
+    display: flex;
+    justify-content: center
+}
+#f-centered-line{
+    line-height: 50px;
+    height: 50px;
+}
+#g-center-vertical-align {
+    display: table;
+}
+#g-center-vertical-align p{
+    display: table-cell;
+    height: 200px;
+    vertical-align: middle;
+}
+#h-center-flexbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+}
+#i-fixed-height-centered,
+#j-unknown-height-centered{
+    position: relative;
+    height: 300px;
+}
+#i-fixed-height-centered > div{
+    position: absolute;
+    background: #bbb;
+    height: 200px;
+    top: 50%;
+    margin-top: -120px;
+}
+#j-unknown-height-centered > div{
+    position: absolute;
+    background: #bbb;
+    height: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    right: 20px;
+    margin: 0;
+}
