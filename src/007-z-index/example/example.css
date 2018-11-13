@@ -3,3 +3,46 @@
  * Version: 1
  * By: xxx
  */
+.page-content{
+    background: honeydew;
+    padding: 80px;
+}
+
+.page-content div{
+    padding: 50px;
+}
+#container{
+    background: cadetblue;
+    color: white;
+    padding: 0;
+}
+#main-content{
+    padding: 50px 0;
+}
+#main-content>div{
+    width: 60%;
+}
+#sub-content{
+    background: lightcyan;
+    color: black;
+    width: 60%;
+    left: 0;
+}
+#shadow{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    z-index: 2;
+}
+#list{
+    position: absolute;
+    background: lightgoldenrodyellow;
+    color: black;
+    z-index: 3;
+    width: 30%;
+    top: 25%;
+    right: 50px;
+}
