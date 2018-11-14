@@ -100,6 +100,7 @@ nav.navbar-no-scroll {
   color: #757575;
 }
 
+.navbar #menu li,
 .navbar #responsive-menu li {
   cursor: pointer;
   padding: 20px;
@@ -133,12 +134,30 @@ nav.navbar-no-scroll {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  nav.navbar-scroll {
+    background-color: #6200EE;
+    padding: 2%;
+  }
+  .navbar #menu {
+    display: inherit;
+    position: fixed;
+    right: 2%;
+  }
+  .navbar .responsive-icon {
+    display: none;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  nav.navbar-scroll {
+    background-color: #FF6600;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  nav.navbar-scroll {
+    background-color: #FF0266;
+  }
 }

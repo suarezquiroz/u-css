@@ -114,12 +114,21 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .footer {
+    background-color: #6200EE;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .footer {
+    background-color: #FF6600;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  .footer {
+    background-color: #FF0266;
+  }
 }
