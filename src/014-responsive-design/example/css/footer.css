@@ -124,11 +124,30 @@
   .footer {
     background-color: #FF6600;
   }
+  .dropdown-container{
+    flex-flow: row wrap;
+  }
+  .dropdown-footer{
+    flex-basis: 50%;
+  }
+  .dropdown-footer input,
+  .dropdown-footer .heading::after {
+    display: none;
+  }
+  .content-down {
+    display: block;
+  }
+  .dropdown-footer .heading{
+    cursor: auto;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
   .footer {
     background-color: #FF0266;
+  }
+  .dropdown-footer{
+    flex-basis: 25%;
   }
 }

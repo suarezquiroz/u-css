@@ -134,9 +134,11 @@ nav.navbar-no-scroll {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .navbar{
+    padding: 2%;
+  }
   nav.navbar-scroll {
     background-color: #6200EE;
-    padding: 2%;
   }
   .navbar #menu {
     display: inherit;

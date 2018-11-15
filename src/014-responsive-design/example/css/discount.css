@@ -81,4 +81,8 @@
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  .discount-content {
+    text-align: right;
+    padding-right: 3%;
+  }
 }
