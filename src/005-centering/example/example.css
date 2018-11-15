@@ -47,20 +47,19 @@ nav ul {
     padding: 10px;
     background-color: #ddd;
 }
-
 #d-centered-block-elements{
     text-align: center;
 }
-
+#e-centered-elements-flexbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 #d-centered-block-elements div,
 #e-centered-elements-flexbox div
 {
     display: inline-block;
     max-width: 300px;
-}
-#e-centered-elements-flexbox{
-    display: flex;
-    justify-content: center
 }
 #f-centered-line{
     line-height: 50px;
